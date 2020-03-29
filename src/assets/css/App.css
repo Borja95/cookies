@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+h2{
+  margin-top: 5%;
+}
+
+.containerDashboard{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: block;
+}

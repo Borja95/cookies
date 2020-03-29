@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  /*Colores*/
+      --greenColor: #7acc2d;
+      --whiteColor: white;
+      --blackColor: black;
+  /*espaciado*/
+  --espaciado: 10px;
+  /*box shadow*/
+  --box: 0 0 1px #c1bcbc;
+  
+  }
+
+
+.container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: var(--espaciado);
+  background-color: var(--whiteColor);
+  display: flex;
+}
+
+.container .btnLogin{
+  margin-top: 10px;
+}
+
+.btnLogin:hover{
+  background-color: #70b330;
+}
+
+.btnLogin{
+  font-weight: bold !important;
+  background-color: blue !important;
+}
+
+.loginContainer{
+background-color: azure;
+width: 350px;
+height: 300px;
+padding-top: 3%;
+border: 1px solid #000;
+
+}
